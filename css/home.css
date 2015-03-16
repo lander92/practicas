@@ -115,6 +115,10 @@ a:link{
     transform: scale(1.1,1.2);
 }
 
+h2{
+	margin:5px;
+}
+
 
 /*********FIN MAIN***********/
 
@@ -138,41 +142,297 @@ a:link{
 
 
 
-/*********MAX WIDTH 992***********/
-@media screen and (max-width: 992px) {
-	
-	#main{
-		height:76%
+/********************RESOLUCION MOVIL**********************/
+	/*********VERTICAL**********/
+
+	@media screen and (min-width: 320px) and (orientation:portrait){
+		#main{
+			height:76%;
+			background-color:red;
+		}
+		
+		#servicios{
+			height:120px;
+			position:relative;
+			left:0%;
+			margin-top:25%;
+		}
+		
+		#academia{
+			height:120px;
+			position:relative;
+			left:5%;
+			margin-top:25%;
+		}
+		#tienda{
+			height:120px;
+			position:relative;
+			left:5%;
+			margin-top:25%;
+		}
+		
+		#contenidoServicios{
+			height:100%;
+		}
+		
+		h2{
+			font-size: 12px;
+		}
+
+		#footer>a{
+			font-size: 12px;
+		}
 	}
 	
-	#menuServicios{
-		height:50%;
-	}
+	/**********************/
 	
-	#contenidoServicios{
-		height:50%;
+	/*********HORIZONTAL*************/
+	
+	@media screen and (min-width:480px) and (orientation:landscape){
+		#main{
+			height:64%;
+			background-color:green;
+		}
+		
+		#servicios{
+			height:50px;
+			position:relative;
+			left:0%;
+			
+		}
+		
+		#academia{
+			height:120px;
+			position:relative;
+			left:5%;
+			
+		}
+		#tienda{
+			height:120px;
+			position:relative;
+			left:5%;
+			
+		}
+		
+		#contenidoServicios{
+			height:100%;
+		}
+		
+		h2{
+			font-size: 12px;
+		}
+		
+		
+		#footer{
+			position:fixed;
+			top:93%;
+		}
+		#footer>a{
+			font-size: 11px;
+		}
 	}
-  	
-}
-/*********FIN MAX WIDTH 992***********/
+	/**************************/
+/****************FIN RESOLUCION MOVIL***************************/
 
 
-/*********MAX WIDTH 768***********/
-@media screen and (max-width: 568px) {
-	#main{
-		height:76%
+/****************RESOLUCION TABLETA PEQUEÑA***************************/
+
+	/*********VERTICAL**********/
+
+	@media screen and (min-width: 600px) and (orientation:portrait){
+		#main{
+			height:82%;
+			background-color:yellow;
+		}
+		
+		#servicios{
+			height:120px;
+			position:relative;
+			left:0%;
+			margin-top:25%;
+		}
+		
+		#academia{
+			height:120px;
+			position:relative;
+			left:5%;
+			margin-top:25%;
+		}
+		#tienda{
+			height:120px;
+			position:relative;
+			left:5%;
+			margin-top:25%;
+		}
+		
+		#contenidoServicios{
+			height:100%;
+		}
+		
+		h2{
+			font-size: 16px;
+		}
+		
+		#footer{
+			position:fixed;
+			top:96%;
+		}
+		
+		#footer>a{
+			font-size: 15px;
+		}
 	}
 	
-	#contenidoServicios{
-		height:100%;
+	/**********************/
+
+	/*********HORIZONTAL*************/
+	
+	@media screen and (min-width:800px) and (orientation:landscape){
+		#main{
+			height:76%;
+			background-color:grey;
+		}
+		
+		#servicios{
+			height:50px;
+			position:relative;
+			left:0%;
+			margin-top:10%;
+			
+		}
+		
+		#academia{
+			height:120px;
+			position:relative;
+			left:5%;
+			
+		}
+		#tienda{
+			height:120px;
+			position:relative;
+			left:5%;
+			
+		}
+		
+		#contenidoServicios{
+			height:100%;
+		}
+		
+		h2{
+			font-size: 18px;
+		}
+		
+		
+		#footer{
+			position:fixed;
+			top:94%;
+		}
+		#footer>a{
+			font-size: 18px;
+		}
+	}
+	/**************************/
+
+/****************FIN RESOLUCION TABLETA PEQUEÑA***************************/
+
+
+
+/****************RESOLUCION TABLET***************************/
+	/*********VERTICAL**********/
+	@media screen and (min-width: 768px) and (orientation:portrait){
+		#main{
+			height:88%;
+			background-color:pink;
+		}
+		
+		#servicios{
+			height:120px;
+			position:relative;
+			left:0%;
+			margin-top:25%;
+		}
+		
+		#academia{
+			height:120px;
+			position:relative;
+			left:5%;
+			margin-top:25%;
+		}
+		#tienda{
+			height:120px;
+			position:relative;
+			left:5%;
+			margin-top:25%;
+		}
+		
+		#contenidoServicios{
+			height:100%;
+		}
+		
+		h2{
+			font-size: 20px;
+		}
+		
+		#footer{
+			position:fixed;
+			top:97%;
+		}
+		
+		#footer>a{
+			font-size: 20px;
+		}
 	}
 	
-	/*#menuServicios{
-		width:20%;
-	}*/
-	
-	#footer>a{
-		font-size: 14px;
+	/**********************/
+
+	/*********HORIZONTAL*************/
+	@media screen and (min-width:1024px) and (orientation:landscape){
+		#main{
+			height:82%;
+			background-color:brown;
+		}
+		
+		#servicios{
+			height:50px;
+			position:relative;
+			left:0%;
+			margin-top:7%;
+			
+		}
+		
+		#academia{
+			height:120px;
+			position:relative;
+			left:5%;
+			
+		}
+		#tienda{
+			height:120px;
+			position:relative;
+			left:5%;
+			
+		}
+		
+		#contenidoServicios{
+			height:100%;
+		}
+		
+		h2{
+			font-size: 18px;
+		}
+		
+		
+		#footer{
+			position:fixed;
+			top:96%;
+		}
+		#footer>a{
+			font-size: 18px;
+		}
 	}
-}
-/*********FIN MAX WIDTH 768***********/
+	/**************************/
+
+
+
+/****************FIN RESOLUCION TABLET***************************/
+
