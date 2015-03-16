@@ -1,0 +1,73 @@
+@charset "UTF-8";
+html{
+	height:100%;
+	width:100%;
+	margin-right:0px;
+	margin-left:0px;
+	text-align:center;
+	}
+
+.row{
+	margin-right:0px;
+	margin-left:0px;
+}
+body{
+	height:100%;
+	background: url(http://localhost/Practicas/img/fondos/fondo2.jpg);
+	/* Nos aseguramos que la imagen de fondo este centrada vertical y
+    horizontalmente en todo momento */
+  	background-position: center center;
+	
+	/* La imagen de fondo no se repite */
+	background-repeat: no-repeat;
+	
+	/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+	   la altura del contenido supere la altura de la imagen. */
+	background-attachment: fixed;
+	
+	/* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+	   del navegador */
+	background-size: cover;
+}
+
+#titulo{
+	position:relative;
+	top:10%;
+}
+
+h1{
+	color:orange;
+	font-family:Aggie URW;
+	font-size:90px;
+	text-align:center;
+}
+
+#eslogan{
+	text-align:center;
+	margin-top:100px;
+}
+
+#entrar{
+	text-align:center;
+	position:relative;
+	top:30%;
+}
+
+button{
+	width:200px;
+	height:50px;		
+}
+
+button:hover{
+	-ms-transform: scale(1.1,1.2); /* IE 9 */
+    -webkit-transform: scale(1.1,1.2); /* Safari */
+    transform: scale(1.1,1.2);
+}
+
+/*********MAX WIDTH 768***********/
+@media screen and (max-width: 568px) {
+	h1{
+		font-size:70px;
+	}
+}
+/*********FIN MAX WIDTH 768***********/
