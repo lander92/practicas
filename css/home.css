@@ -34,10 +34,6 @@ a:link{
 	background:#ff9a00;
 	height:66px;
 }
-#logo3{
-	background:red;
-	height:66px;
-}
 
 /******* FIN CABECERA***********/
 
@@ -86,27 +82,28 @@ a:link{
 }
 #imagenes>div{
 	margin-right:5%;
+	left:0px;
 }
 
 #servicios{
 	height:350px;
 	width:25%;
 	display:inline-block;
-	color:#1971b1
+	color:#1971b1;
 }
 
 #academia{
 	height:350px;
 	width:25%;
 	display:inline-block;
-	color:#1971b1
+	color:#1971b1;
 }
 
 #tienda{
 	height:350px;
 	width:25%;
 	display:inline-block;
-	color:#1971b1
+	color:#1971b1;
 }
 
 #servicios:hover, #academia:hover, #tienda:hover{
@@ -148,7 +145,6 @@ h2{
 	@media screen and (min-width: 320px) and (orientation:portrait){
 		#main{
 			height:76%;
-			background-color:red;
 		}
 		
 		#servicios{
@@ -191,7 +187,6 @@ h2{
 	@media screen and (min-width:480px) and (orientation:landscape){
 		#main{
 			height:64%;
-			background-color:green;
 		}
 		
 		#servicios{
@@ -242,7 +237,6 @@ h2{
 	@media screen and (min-width: 600px) and (orientation:portrait){
 		#main{
 			height:82%;
-			background-color:yellow;
 		}
 		
 		#servicios{
@@ -290,7 +284,6 @@ h2{
 	@media screen and (min-width:800px) and (orientation:landscape){
 		#main{
 			height:76%;
-			background-color:grey;
 		}
 		
 		#servicios{
@@ -342,7 +335,6 @@ h2{
 	@media screen and (min-width: 768px) and (orientation:portrait){
 		#main{
 			height:88%;
-			background-color:pink;
 		}
 		
 		#servicios{
@@ -389,14 +381,13 @@ h2{
 	@media screen and (min-width:1024px) and (orientation:landscape){
 		#main{
 			height:82%;
-			background-color:brown;
 		}
 		
 		#servicios{
-			height:50px;
+			height:300px;
 			position:relative;
 			left:0%;
-			margin-top:7%;
+			margin-top:5%;
 			
 		}
 		

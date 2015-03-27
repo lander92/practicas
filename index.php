@@ -9,7 +9,7 @@
     	<!-- CSS Propio -->
     	<link href="css/intro.css" rel="stylesheet"/>
 	</head>
-	<body>
+	<body background="img/fondos/fondo2.jpg">
 		<div id="titulo">
 			<div class="row">
 		  		<div class="col-md-6 col-md-offset-3"><h1>Tekno2000</h1></div>
@@ -28,11 +28,12 @@
 	
   	
   
-  		<!-- Mi JS -->
-  		<script src="js/web.js"></script>
+
   		<!-- jQuery -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	    <!--Bootstrap JS -->
 	    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	    <!-- Mi JS -->
+  		<script src="js/web.js"></script>
 	</body>  
 </html>

@@ -38,7 +38,7 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Servicios <span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Servicio Empresa</a></li>
+									<li><a href="#" onclick="serviciosEmpresa();">Servicio Empresa</a></li>
 									<li><a href="#">Software Gestion</a></li>
 									<li><a href="#">Asistencia Tecnica</a></li>
 								</ul>
@@ -97,5 +97,7 @@
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	    <!--Bootstrap JS -->
 	    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	   	<!--Mi JS -->
+	    <script src="js/web.js"></script>
 	</body>  
 </html>
