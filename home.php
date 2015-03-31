@@ -29,20 +29,13 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Inicio</a>
+						<a class="navbar-brand" href="home.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Inicio</a>
 					</div>
 				
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Servicios <span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#" onclick="serviciosEmpresa();">Servicio Empresa</a></li>
-									<li><a href="#">Software Gestion</a></li>
-									<li><a href="#">Asistencia Tecnica</a></li>
-								</ul>
-							</li>
+							<li><a href="servicios.php"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Servicios</a></li>
 							<li><a href="#"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>Academia</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Tienda <span class="caret"></span></a>
@@ -63,7 +56,7 @@
 		<div class="row" id="main">
 			<div id="imagenes">
 				<div id="servicios">
-					<img src="img/home/servicios33.jpg" class="img-responsive img-rounded">
+					<a href="servicios.php"><img src="img/home/servicios33.jpg" class="img-responsive img-rounded"></a>
 					<h2>SERVICIOS</h2>
 				</div>
 				<div id="academia">

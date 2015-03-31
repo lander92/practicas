@@ -316,8 +316,45 @@ a:link{
 /****************RESOLUCION TABLET***************************/
 	/*********VERTICAL**********/
 	@media screen and (min-width: 768px) and (orientation:portrait){
+		#main{
+			height:100%;
+			
+		}
 		#menuServicios{
-			background:red;
+			height:10%;
+			width:100%;
+		}
+		
+		#menuServicios ul{
+			position: relative;
+ 			top:-12%;
+		}
+		
+		#menuServicios a{
+			font-size:30px;
+		}
+		
+		#contenidoServicios{
+			height:100%;
+			width:100%;
+		}
+		
+		#contenidoServicios h1{
+			font-size:35px;
+		}
+		
+		#contenidoServicios p, #contenidoServicios li{
+			font-size:18px;
+		}
+		
+		#footer{
+			height:5%;
+			top:96%;
+		}
+		
+		#footer a{
+			font-size:18px;
+			margin-right: 12%;
 		}
 	}
 	
@@ -325,7 +362,32 @@ a:link{
 
 	/*********HORIZONTAL*************/
 	@media screen and (min-width:1024px) and (orientation:landscape){
-
+		#main{
+			height:60%;
+		}
+		
+		#menuServicios{
+			height:136%;
+		}
+		
+		#menuServicios>ul>li>a{
+			font-size:25px;
+		}
+		
+		#contenidoServicios h1{
+			font-size:35px;
+		}
+		
+		#contenidoServicios p, #contenidoServicios li{
+			font-size:18px;
+		}
+		
+		#footer a{
+			font-size:18px;
+			margin-right: 12%;
+		}
+		
+		
 	}
 	/**************************/
 
