@@ -13,7 +13,7 @@
       }
     </style>
         <script type="text/javascript"
-      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCKCfIwvBuXvsA2HdVQTb1Ny-zLQ1jjXjw
+      src="http://maps.googleapis.com/maps/api/js?key=5bBYLuZtuOzAXUFRO1rB10Ji
 &sensor=false">
 </script>
     <script>
@@ -44,3 +44,4 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <div id="map-canvas"></div>
   </body>
 </html>
+
