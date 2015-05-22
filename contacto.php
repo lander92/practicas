@@ -55,47 +55,32 @@
 		<!-- Main -->
 		<div class="row" id="main">
 			<div class="col-xs-12 col-md-7" id="emails">
-				<p>
-					Teléfono: 943 44 50 30
-				</p>
-				<p>
-					En estos momento la componen 8 personas divididas en los diferentes apartados:
-				</p>
-				<ul>
-					<li><b>Comercial:</b> venta de productos informáticos en general. 
-						Tenemos un catalogo de más de 15.000 productos. 
-						También nos dedicamos al alquiler de equipamiento informático.
-					</li><br>
-					
-					<li><b>Administrativo:</b> </li><br>
-					
-					<li><b>Servicio tecnico:</b> Actividad unida a la anterior.
-						Implica el mantenimiento de los equipos informáticos instalados. 
-						En este apartado caben destacar nuestros contratos de mantenimiento, 
-						estando dirigidos principalmente al mantenimiento de las redes informáticas 
-						instaladas en las empresas.
-					</li><br>
-					
-					<li><b>Software de gestión:</b> Llevamos la distribución del programa de gestión Sage
-					</li><br>
-					
-					<li><b>Formación:</b> disponemos de 2 aulas para 14 y 6 personas 
-						en las que se dan regularmente cursos informáticos, 
-						tanto a nivel básico como especializado. 
-						Igualmente nos desplazamos a las empresas y damos formación a nivel particular.
-					</li><br>
-				</ul>
+				<p><b>Telefono:</b> 943 44 50 30</p></br>
+				<p><b>Correos de Contacto:</b></p></br>
+				<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:30px 80px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:20px 80px;overflow:hidden;word-break:normal;}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e"><b>Gerente:</b><br>Ramón Martinez Arizala<br>tekno2000@tekno2000.com</th>
+    <th class="tg-031e"><b>S.A.T.:</b><br>Mikel Anduaga (Coordinador)<br>Martín Santamaría <br>sat@tekno2000.com</th>
+  </tr>
+  <tr>
+    <td class="tg-031e"><b>Comerciales Donostia:</b> <br>Joseba Latiegui<br>comercial@tekno2000.com</td>
+    <td class="tg-031e"><b>Administración:</b><br>Olga San Sebastián<br>contabilidad@tekno2000.com</td>
+  </tr>
+  <tr>
+    <td class="tg-031e"><b>SAGE:</b><br>Montxo Martínez <br>soportesoft@tekno2000.com</td>
+    <td class="tg-031e"><b>Academia:</b><br>Olga San Sebastián <br>academia@tekno2000.com</td>
+  </tr>
+</table>
 				
-				<p>
-					Además de otros colaboradores, especialmente en el campo de la formación.
-					Nuestra ubicación central está en San Sebastián, en la calle Azpeitia, 7-Bajo. 
-					Además disponemos de local comercial en Irún, en la calle Sebastián Errazu, 7-bajo, 
-					así como de una tienda virtual ubicada en la dirección electrónica <a href="index.php">www.tekno2000.com.</a>
-				</p>
 				
 			</div>
-			<div class="col-xs-6 col-md-5" id="titulo">
-			
+			<div class="col-xs-6 col-md-5" id="imagen">
+				<img src="img/contacto/contacto.png"></img>
 			</div>
 		</div>	
 		<!-- Fin de Main -->
@@ -103,8 +88,8 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<a href="#"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Tekno2000</a>
-			<a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a>
-			<a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>Quienes Somos</a>
+			<a href="contacto.php"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a>
+			<a href="about.php"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>Quienes Somos</a>
 		</footer>
 
 		

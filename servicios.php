@@ -117,8 +117,8 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<a href="#"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Tekno2000</a>
-			<a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a>
-			<a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>Quienes Somos</a>
+			<a href="contacto.php"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a>
+			<a href="about.php"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>Quienes Somos</a>
 		</footer>
 
 		

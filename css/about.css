@@ -78,14 +78,19 @@ a:link{
 /*********MAIN***********/
 #descripcion{
 	height:100%;
-	background:red;
+	/*background:red;*/
 	text-align:left;
+	margin-top:2%;
 }
 
+#maps{
+	margin-top:10%;
+}
 
 #mapa{
 	height:100%;
-	background:blue;
+	margin-top:2%;
+	/*background:blue;*/
 }
 
 

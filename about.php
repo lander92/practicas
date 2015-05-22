@@ -96,7 +96,7 @@
 				
 			</div>
 			<div class="col-xs-6 col-md-5" id="mapa">
-			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.217235453692!2d-1.9809762!3d43.309711699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51aff9012128e9%3A0xfc48f02bd03ab1a3!2sAzpeitia+Kalea%2C+7%2C+20010+Donostia%2C+Gipuzkoa!5e0!3m2!1ses!2ses!4v1429785184296" width="500" height="500" frameborder="0" style="border:0"></iframe>
 			</div>
 		</div>	
 		<!-- Fin de Main -->
@@ -104,8 +104,8 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<a href="#"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Tekno2000</a>
-			<a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a>
-			<a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>Quienes Somos</a>
+			<a href="contacto.php"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a>
+			<a href="about.php"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>Quienes Somos</a>
 		</footer>
 
 		

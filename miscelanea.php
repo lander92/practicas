@@ -7,7 +7,7 @@
     	<!-- Bootstrap CSS -->
     	<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
     	<!-- CSS Propio -->
-    	<link href="css/home.css" rel="stylesheet"/>
+    	<link href="css/miscelanea.css" rel="stylesheet"/>
 	</head>
 	<body>
 		<!-- Cabecera -->
@@ -54,20 +54,7 @@
 		
 		<!-- Main -->
 		<div class="row" id="main">
-			<div id="imagenes">
-				<div id="servicios">
-					<a href="servicios.php"><img src="img/home/servicios.jpg" class="img-responsive img-rounded"></a>
-					<h2>SERVICIOS</h2>
-				</div>
-				<div id="academia">
-					<img src="img/home/academia.jpg" class="img-responsive img-rounded">
-					<h2>ACADEMIA</h2>
-				</div>
-				<div id="tienda">
-					<img src="img/home/tienda.jpg" class="img-responsive img-rounded">
-					<h2>TIENDA</h2>
-				</div>		
-			</div>
+			<?php include 'lectorExcel.php';?>
 		</div>	
 		<!-- Fin de Main -->
 		
